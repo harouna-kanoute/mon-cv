@@ -1,0 +1,120 @@
+
+
+.competences, .apropos, .experiences,
+.realisations, .formations{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+section h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #003354;
+}
+section{
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+/*---------------------------formation-------------------------*/
+/*.section5{
+    background: darkgrey;
+}
+.block-section{
+    width: 100%;
+    height: 200%;
+    margin: 70px auto;
+    /*border: 1px solid #003354; */
+    position: relative;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: ;
+}
+.block-section img{
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    right: 40%;
+    top: -40px;
+}
+.formation{
+    padding-top: 70px;
+    text-align: center;
+    line-height: 30px;
+}
+.form1{
+    border-bottom: 3px solid orange;
+}
+.form2{
+    border-bottom: 3px solid greenyellow;
+}
+.form3{
+    border-bottom: 3px solid darkmagenta;
+}
+.form4{
+    border-bottom: 3px solid black;
+    margin-bottom: 90px;
+}*/
+/*-------------------------formation-------------------------*/
+
+/*------------------------competences-------------------------*/
+.section2{
+  background: chocolate;
+}
+.block-competences{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+.competences{
+    width: 90%;
+    height: 50vh;
+    margin: 50px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.competences img{
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: -70px;
+}
+.competences-text{
+    padding-top: 70px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1em;
+}
+
+/*-------------------------competences-------------------------*/
+
+.experienceUn{
+    display: flex;
+    flex-direction:row;
+    margin: 40px;
+}
+.dates{
+    display: flex;
+}
+.dates span, .formation span{
+    margin: 10px 5px;
+    background: aqua;
+    padding: 5px;
+    width: 150px; 
+    height: 30px;
+}
+.dates span> h3, a{
+   line-height: 50px;
+   text-decoration: none;
+   font-weight: bold;
+   text-align: center;
+}
+

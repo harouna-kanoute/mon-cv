@@ -1,0 +1,207 @@
+
+@media screen and (max-width: 768px) {
+    nav ul {
+      background-color: #fffffb;
+      display: block;
+      height: 0;
+      list-style-type: none;
+      opacity: 0;
+      text-align: left;
+      -webkit-transition: all 1s ease;
+      transition: all 1s ease;
+      width: 100%;
+      visibility: hidden;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      padding: 0;
+    }
+    
+    nav li {
+      border-bottom: 1px solid #efefef;
+      color: #21252b;
+      display: block;
+      font-size: 1em;
+      width: 100%;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+      
+    nav li:hover {
+        color: #e63347;
+        -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out;
+    }
+      
+    nav span {
+      padding-left: 1em;
+    }
+      
+    .to-top {
+      text-align: center;
+    }
+      
+    .logo {
+      margin-left: 0.6em;
+    }     
+    
+  
+    #menu-toggle:checked ~ ul {
+      opacity: 1;
+      height: 100%;
+      visibility: visible;
+    }
+    
+    .label-toggle {
+      background: -webkit-linear-gradient(top, white 0%, white 20%, transparent 20%, transparent 40%, white 40%, white 60%, transparent 60%, transparent 80%, white 80%, white 100%);
+      background: linear-gradient(to bottom, white 0%, white 20%, transparent 20%, transparent 40%, white 40%, white 60%, transparent 60%, transparent 80%, white 80%, white 100%);
+      cursor: pointer;
+      display: block;
+      float: right;
+      height: 20px;
+      margin-top: 1.3em;
+      margin-right: 1em;
+      width: 20px;
+    }
+    
+    .wrapper {display: block;}
+  
+}
+  @media screen and (min-width: 200px) and (max-width: 640px) {
+    
+    .competences, .apropos, .experiences,
+    .realisations, .formations{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section h2{
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #003354;
+    }
+    section{
+      width: 100%;
+      margin: auto;
+      padding: 0;
+    }
+    
+    /*---------------------------formation-------------------------*/
+    .section5{
+        background: darkgrey;
+    }
+    .content-formation{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .block-section{
+        width: 90%;
+        margin: 70px auto;
+        /*border: 1px solid #003354; */
+        position: relative;
+        background: whitesmoke;
+    }
+    .block-section img{
+        position: absolute;
+        width: 30%;
+        left: 35%;
+        right: 35%;
+        top: -50px;
+    }
+    .formation{
+        padding-top: 70px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .form1{
+        border-bottom: 3px solid orange;
+    }
+    .form2{
+        border-bottom: 3px solid greenyellow;
+    }
+    .form3{
+        border-bottom: 3px solid darkmagenta;
+    }
+    .form4{
+        border-bottom: 3px solid black;
+        margin-bottom: 90px;
+    }
+    /*-------------------------formation-------------------------*/
+
+    /*------------------------competences-------------------------*/
+    
+    .block-competences{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .competences{
+        width: 90%;
+        height: 50vh;
+        margin: 50px auto;
+        position: relative;
+    }
+    .competences img{
+        width: 25%;
+        position: absolute;
+        width: 30%;
+        left: 35%;
+        right: 35%;
+        top: -50px;
+    }
+    .competences-text{
+        padding-top: 70px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 1em;
+    }
+
+    /*-------------------------competences-------------------------*/
+   
+    .experienceUn{
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+    }
+    .dates{
+        display: flex;
+    }
+    .dates span, .formation span{
+        margin: 10px 5px;
+        background: aqua;
+        padding: 5px;
+        width: 150px;  ;
+    }
+    .dates span> h3, a{
+       line-height: 50px;
+       text-decoration: none;
+       font-weight: bold;
+       text-align: center;
+    }
+    
+
+    /*------------------------Experiences-------------------------*/
+    
+    
+    /*------------------------footer-------------------------*/
+    footer{
+        margin:2em 0em 0em 0em;
+        width: 100%;
+        height: 8em;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        color: whitesmoke;
+        background: black;
+    }
+    
+    footer a{
+        font-size: 1em;
+        color: whitesmoke;
+    }
+}
